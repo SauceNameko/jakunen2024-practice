@@ -1,0 +1,35 @@
+.all {
+    display: flex;
+    justify-content: center
+}
+
+.field {
+    display: grid;
+    grid-template-columns: repeat(3, 64px);
+    grid-template-rows: repeat(13, 64px);
+}
+
+.kawa {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.syougai {
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+.score {
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.muteki {
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+}
+
+.player {
+    background-color: lightpink;
+    border: 1px solid black;
+}
